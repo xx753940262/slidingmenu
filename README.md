@@ -1,4 +1,4 @@
 slidingmenu
 ===========
 
-make slidingmenu library to aar
+this is android studio slidingmenu from slidingmenu library
