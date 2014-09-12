@@ -1,0 +1,14 @@
+language: android
+
+android:
+  components:
+    - build-tools-19.1.0
+    - extra-android-support
+    - extra-android-m2repository
+    - android-19
+  licenses:
+    - '.+'
+script:
+  # Sonatype bypass
+  - chmod +x gradlew
+  - ./gradlew clean assemble check
