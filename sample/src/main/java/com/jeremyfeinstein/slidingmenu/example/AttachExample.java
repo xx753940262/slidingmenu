@@ -29,7 +29,8 @@ public class AttachExample extends FragmentActivity {
 		menu.setShadowDrawable(R.drawable.shadow);
 		menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
 		menu.setFadeDegree(0.35f);
-		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+//		menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+		menu.attachToActivity(this, SlidingMenu.SLIDING_WINDOW);
 		menu.setMenu(R.layout.menu_frame);
 		getSupportFragmentManager()
 		.beginTransaction()
